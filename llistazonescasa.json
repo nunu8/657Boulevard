@@ -1,0 +1,43 @@
+{
+  "door": {
+    "id": "door",
+    "type": "door",
+    "title": "Porta",
+    "cardAnimation": {
+      "title": "Carta oberta",
+      "text": "S'ha obert una carta davant la casa..."
+    }
+  },
+  "windows": [
+    {
+      "id": "w1",
+      "type": "text",
+      "title": "Finestra 1",
+      "text": "Aquest és un registre important sobre la casa. S'han detectat llums intermitents a la planta superior.",
+      "typingSpeed": 30
+    },
+    {
+      "id": "w2",
+      "type": "postit",
+      "title": "Finestra 2",
+      "notes": [
+        "Registre 01: llum a les 02:13",
+        "Registre 02: soroll a l'interior",
+        "Registre 03: moviment no identificat"
+      ]
+    },
+    {
+      "id": "w3",
+      "type": "fragment",
+      "title": "Finestra 3",
+      "video": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "hint": "Mou el ratolí per reconstruir la carta fragmentada"
+    },
+    {
+      "id": "w4",
+      "type": "lock",
+      "title": "Finestra 4",
+      "hint": "Sembla bloquejada. Potser cal desbloquejar-la"
+    }
+  ]
+}
